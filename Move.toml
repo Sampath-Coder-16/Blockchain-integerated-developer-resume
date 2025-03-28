@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-integerated-developer-resume"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x81e1afd461887978f2ad46896fa78b928e04907f4e17d231ee08c8a4aa6a0679"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
